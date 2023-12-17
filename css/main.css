@@ -232,6 +232,39 @@ a:hover {
   line-height: 130%; /* 23.4px */
 }
 
+.header__animation-text {
+  color: #3d3648;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+  letter-spacing: 0.48px;
+}
+
+.header__animation {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.header__animation div {
+  display: flex;
+  width: 200%;
+  animation: header__animation 9s linear infinite;
+}
+
+.header__animation p {
+  white-space: nowrap;
+  width: 100%;
+}
+
+@keyframes header__animation {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
 nav {
   font-size: 14px;
 }

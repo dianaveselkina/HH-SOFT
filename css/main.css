@@ -105,4 +105,19 @@ legend {
 
 body {
   font-family: "Ubuntu", sans-serif;
+  color: #1a1a1a;
+  font-size: 16px;
+}
+
+.container {
+  padding: 0 15px;
+  max-width: 1320px;
+  margin: 0 auto;
+  background-color: aqua;
+}
+
+.header {
+  max-width: 1600px;
+  min-height: 900px;
+  background: url(./../img/background.png);
 }/*# sourceMappingURL=main.css.map */

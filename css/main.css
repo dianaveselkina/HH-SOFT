@@ -113,7 +113,6 @@ body {
   padding: 0 15px;
   max-width: 1320px;
   margin: 0 auto;
-  background-color: aqua;
 }
 
 a {
@@ -125,6 +124,7 @@ a:hover {
 }
 
 .header {
+  color: #fff;
   max-width: 1600px;
   min-height: 900px;
   background: url(./../img/background.png);
@@ -135,7 +135,7 @@ a:hover {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding-top: 50px;
+  padding: 50px 0 162px;
 }
 
 .nav__list-contacts {
@@ -156,6 +156,32 @@ a:hover {
 .nav__item-tg {
   z-index: 3;
   margin-right: 20px;
+}
+
+.header__info {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 212px;
+}
+
+.header__info-block {
+  min-width: 617px;
+}
+
+.header__title {
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%; /* 65px */
+  text-transform: uppercase;
+  padding-bottom: 36px;
+}
+
+.header__content {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 160%; /* 28.8px */
 }
 
 nav {

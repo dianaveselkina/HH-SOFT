@@ -3,3 +3,26 @@
   min-height: 900px;
   background: url(./../img/background.png);
 }
+.header__top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 50px;
+}
+.nav__list-contacts {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.nav__item-vk {
+  margin-right: -10px;
+}
+.nav__item-ut {
+  z-index: 2;
+  margin-right: -10px;
+}
+.nav__item-tg {
+  z-index: 3;
+  margin-right: 20px;
+}

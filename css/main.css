@@ -116,8 +116,55 @@ body {
   background-color: aqua;
 }
 
+a {
+  color: #fff;
+  transition: color 0.2s ease-in;
+}
+a:hover {
+  color: #9166f0;
+}
+
 .header {
   max-width: 1600px;
   min-height: 900px;
   background: url(./../img/background.png);
+}
+
+.header__top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.nav__list-contacts {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.nav__item-vk {
+  margin-right: -10px;
+}
+
+.nav__item-ut {
+  z-index: 2;
+  margin-right: -10px;
+}
+
+.nav__item-tg {
+  z-index: 3;
+  margin-right: 20px;
+}
+
+nav {
+  font-size: 14px;
+}
+
+.nav__list {
+  display: flex;
+  flex-direction: row;
+  -moz-column-gap: 40px;
+       column-gap: 40px;
 }/*# sourceMappingURL=main.css.map */

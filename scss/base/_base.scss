@@ -10,3 +10,10 @@ body {
   margin: 0 auto;
   background-color: aqua;
 }
+a {
+  color: $color-text-white;
+  transition: color 0.2s ease-in;
+  &:hover {
+    color: $color-btn;
+  }
+}

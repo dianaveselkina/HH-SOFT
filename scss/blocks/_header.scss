@@ -67,6 +67,12 @@
   border-radius: 5px;
   background: linear-gradient(276deg, #210c51 8.77%, #9166f0 85.8%);
 }
+.header__btn1 {
+  transition: color 0.2s ease-in;
+  &:hover {
+    background: linear-gradient(276deg, #9166f0 8.77%, #210c51 85.8%);
+  }
+}
 .header__btn2 {
   max-width: 260px;
   display: flex;
@@ -78,6 +84,13 @@
   flex-shrink: 0;
   border-radius: 5px;
   border: 1px solid #9166f0;
+}
+.header__btn2 {
+  transition: color 0.2s ease-in;
+  &:hover {
+    background: linear-gradient(276deg, #210c51 8.77%, #9166f0 85.8%);
+    color: $color-text-white;
+  }
 }
 .btn__text1 {
   font-size: 18px;
@@ -91,7 +104,12 @@
   font-style: normal;
   font-weight: 700;
   line-height: 130%; /* 23.4px */
+  transition: color 0.2s ease-in;
+  &:hover {
+    color: $color-text-white;
+  }
 }
+
 .header__animation-text {
   color: #3d3648;
   font-size: 16px;

@@ -293,4 +293,14 @@ nav {
   flex-direction: row;
   -moz-column-gap: 40px;
        column-gap: 40px;
+}
+
+.services__cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(410px, 1fr));
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.services__card {
+  height: 420px;
 }/*# sourceMappingURL=main.css.map */

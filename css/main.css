@@ -321,6 +321,8 @@ nav {
 }
 
 .services__card {
+  position: relative;
+  bottom: 0;
   border-radius: 10px;
   box-shadow: 0px 10px 60px 0px rgba(28, 45, 70, 0.1);
   height: 420px;
@@ -329,6 +331,11 @@ nav {
   justify-content: space-between;
   align-items: flex-start;
   padding: 51px 41px 41px 36px;
+  cursor: pointer;
+  transition: 0.2s ease-in;
+}
+.services__card:hover {
+  bottom: 5px;
 }
 
 .card1 {

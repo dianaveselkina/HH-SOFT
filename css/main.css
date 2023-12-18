@@ -123,6 +123,10 @@ a:hover {
   color: #9166f0;
 }
 
+section {
+  max-width: 1600px;
+}
+
 .header {
   color: #fff;
   max-width: 1600px;
@@ -359,6 +363,7 @@ nav {
 }
 
 .card__description {
+  overflow: hidden;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -369,4 +374,40 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+}
+
+.btn__text1 {
+  color: #9166f0;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+}
+
+.btn__text2 {
+  color: #fff;
+  font-family: Ubuntu;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%; /* 23.4px */
+}
+
+.services__btn2 {
+  max-width: 260px;
+  display: flex;
+  height: 70px;
+  padding: 20px 34px 21px 34px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  color: #fff;
+  margin-top: 33px;
+  background: linear-gradient(276deg, #9166f0 8.77%, #633bbc 85.8%);
+  transition: color 0.2s ease-in;
+}
+.services__btn2:hover {
+  background: linear-gradient(276deg, #633bbc 8.77%, #9166f0 85.8%);
 }/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,38 @@
+.skill__block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.skill__title {
+  padding-bottom: 72px;
+}
+.skill__list {
+  max-width: 328px;
+  height: 420px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.skill__list-item {
+  color: $color-btn;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+}
+.skill__img {
+  max-width: 100%;
+  height: auto;
+}
+.skill__hr1 {
+  width: 600px;
+  height: 2px;
+  background: $color-btn;
+  margin-top: -20px;
+}
+.skill__hr {
+  width: 560px;
+  height: 1px;
+  background: #d9d9d9;
+  margin-top: -20px;
+}

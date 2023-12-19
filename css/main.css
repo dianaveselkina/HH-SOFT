@@ -123,6 +123,14 @@ a:hover {
   color: #9166f0;
 }
 
+h1 {
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%; /* 65px */
+  text-transform: uppercase;
+}
+
 section {
   max-width: 1600px;
 }
@@ -173,11 +181,6 @@ section {
 }
 
 .header__title {
-  font-size: 50px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 130%; /* 65px */
-  text-transform: uppercase;
   padding-bottom: 36px;
 }
 
@@ -237,10 +240,11 @@ section {
 }
 
 .btn__text1 {
+  color: #fff;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height: 130%; /* 23.4px */
+  line-height: 130%;
 }
 
 .btn__text2 {
@@ -248,7 +252,7 @@ section {
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height: 130%; /* 23.4px */
+  line-height: 130%;
   transition: color 0.2s ease-in;
 }
 .btn__text2:hover {
@@ -311,11 +315,6 @@ nav {
 }
 
 .services__title {
-  font-size: 50px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 130%;
-  text-transform: uppercase;
   text-align: center;
   padding-bottom: 72px;
 }
@@ -383,7 +382,7 @@ nav {
   align-items: flex-start;
 }
 
-.btn__text1 {
+.btn__text3 {
   color: #9166f0;
   font-size: 16px;
   font-style: normal;
@@ -391,7 +390,7 @@ nav {
   line-height: 160%;
 }
 
-.btn__text2 {
+.btn__text4 {
   color: #fff;
   font-family: Ubuntu;
   font-size: 18px;
@@ -417,4 +416,49 @@ nav {
 }
 .services__btn2:hover {
   background: linear-gradient(276deg, #633bbc 8.77%, #9166f0 85.8%);
+}
+
+.skill__block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.skill__title {
+  padding-bottom: 72px;
+}
+
+.skill__list {
+  max-width: 328px;
+  height: 420px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.skill__list-item {
+  color: #9166f0;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+}
+
+.skill__img {
+  max-width: 100%;
+  height: auto;
+}
+
+.skill__hr1 {
+  width: 600px;
+  height: 2px;
+  background: #9166f0;
+  margin-top: -20px;
+}
+
+.skill__hr {
+  width: 560px;
+  height: 1px;
+  background: #d9d9d9;
+  margin-top: -20px;
 }/*# sourceMappingURL=main.css.map */

@@ -16,6 +16,13 @@ a {
     color: $color-btn;
   }
 }
+h1 {
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%; /* 65px */
+  text-transform: uppercase;
+}
 section {
   max-width: 1600px;
 }

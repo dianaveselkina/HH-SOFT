@@ -8,11 +8,6 @@
   gap: 30px;
 }
 .services__title {
-  font-size: 50px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 130%;
-  text-transform: uppercase;
   text-align: center;
   padding-bottom: 72px;
 }
@@ -69,14 +64,14 @@
   flex-direction: column;
   align-items: flex-start;
 }
-.btn__text1 {
+.btn__text3 {
   color: $color-btn;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 160%;
 }
-.btn__text2 {
+.btn__text4 {
   color: $color-text-white;
   font-family: Ubuntu;
   font-size: 18px;

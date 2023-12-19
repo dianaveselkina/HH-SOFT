@@ -36,11 +36,6 @@
   max-width: 617px;
 }
 .header__title {
-  font-size: 50px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 130%; /* 65px */
-  text-transform: uppercase;
   padding-bottom: 36px;
 }
 .header__content {
@@ -93,17 +88,18 @@
   }
 }
 .btn__text1 {
+  color: $color-text-white;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height: 130%; /* 23.4px */
+  line-height: 130%;
 }
 .btn__text2 {
   color: $color-btn;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height: 130%; /* 23.4px */
+  line-height: 130%;
   transition: color 0.2s ease-in;
   &:hover {
     color: $color-text-white;

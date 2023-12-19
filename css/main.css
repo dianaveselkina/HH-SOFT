@@ -209,9 +209,6 @@ section {
   flex-shrink: 0;
   border-radius: 5px;
   background: linear-gradient(276deg, #210c51 8.77%, #9166f0 85.8%);
-}
-
-.header__btn1 {
   transition: color 0.2s ease-in;
 }
 .header__btn1:hover {
@@ -228,15 +225,14 @@ section {
   gap: 10px;
   flex-shrink: 0;
   border-radius: 5px;
+  color: #9166f0;
   border: 1px solid #9166f0;
-}
-
-.header__btn2 {
   transition: color 0.2s ease-in;
 }
 .header__btn2:hover {
   background: linear-gradient(276deg, #210c51 8.77%, #9166f0 85.8%);
   color: #fff;
+  border: none;
 }
 
 .btn__text1 {
@@ -248,15 +244,10 @@ section {
 }
 
 .btn__text2 {
-  color: #9166f0;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
   line-height: 130%;
-  transition: color 0.2s ease-in;
-}
-.btn__text2:hover {
-  color: #fff;
 }
 
 .header__animation-text {
@@ -504,6 +495,11 @@ nav {
   gap: 10px;
   border-radius: 5px;
   border: 1px solid #bdbdbd;
+  transition: color 0.2s ease-in;
+}
+.report__btn2:hover {
+  border: 1px solid #9166f0;
+  color: #9166f0;
 }
 
 .report__cards {
@@ -520,6 +516,10 @@ nav {
   max-width: 630px;
   display: flex;
   flex-direction: row;
+}
+
+.report__card:hover .report__description .report__btn3 img {
+  transform: rotate(-90deg);
 }
 
 .report__img {
@@ -545,6 +545,7 @@ nav {
 }
 
 .report__text1 {
+  padding: 0 20px;
   color: #fff;
   text-align: center;
   font-size: 18px;
@@ -611,5 +612,11 @@ nav {
   height: 70px;
   border-radius: 5px;
   border: 1px solid #9166f0;
+  color: #9166f0;
   box-shadow: 0px 10px 25px 0px rgba(210, 177, 207, 0.3);
+  transition: color 0.2s ease-in;
+}
+.report__btn4:hover {
+  background: linear-gradient(276deg, #210c51 8.77%, #9166f0 85.8%);
+  color: #fff;
 }/*# sourceMappingURL=main.css.map */

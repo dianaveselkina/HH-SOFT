@@ -35,6 +35,11 @@
   gap: 10px;
   border-radius: 5px;
   border: 1px solid #bdbdbd;
+  transition: color 0.2s ease-in;
+  &:hover {
+    border: 1px solid $color-btn;
+    color: $color-btn;
+  }
 }
 .report__cards {
   display: grid;
@@ -49,6 +54,10 @@
   max-width: 630px;
   display: flex;
   flex-direction: row;
+}
+
+.report__card:hover .report__description .report__btn3 img {
+  transform: rotate(-90deg);
 }
 .report__img {
   max-width: 230px;
@@ -70,6 +79,7 @@
   top: 40%;
 }
 .report__text1 {
+  padding: 0 20px;
   color: $color-text-white;
   text-align: center;
   font-size: 18px;
@@ -128,5 +138,11 @@
   height: 70px;
   border-radius: 5px;
   border: 1px solid $color-btn;
+  color: $color-btn;
   box-shadow: 0px 10px 25px 0px rgba(210, 177, 207, 0.3);
+  transition: color 0.2s ease-in;
+  &:hover {
+    background: linear-gradient(276deg, #210c51 8.77%, #9166f0 85.8%);
+    color: $color-text-white;
+  }
 }

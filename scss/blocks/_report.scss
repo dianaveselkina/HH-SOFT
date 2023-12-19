@@ -1,3 +1,9 @@
+.report__cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(630px, 1fr));
+  grid-template-rows: repeat(3, 1fr);
+  gap: 30px;
+}
 .report__card {
   border-radius: 10px;
   background: $color-text-white;
@@ -35,7 +41,7 @@
   text-transform: uppercase;
 }
 .report__description {
-  padding-left: 26px;
+  padding: 0 26px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;

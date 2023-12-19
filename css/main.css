@@ -396,7 +396,7 @@ nav {
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height: 130%; /* 23.4px */
+  line-height: 130%;
 }
 
 .services__btn2 {
@@ -463,6 +463,13 @@ nav {
   margin-top: -20px;
 }
 
+.report__cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(630px, 1fr));
+  grid-template-rows: repeat(3, 1fr);
+  gap: 30px;
+}
+
 .report__card {
   border-radius: 10px;
   background: #fff;
@@ -505,7 +512,7 @@ nav {
 }
 
 .report__description {
-  padding-left: 26px;
+  padding: 0 26px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;

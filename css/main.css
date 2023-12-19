@@ -619,4 +619,8 @@ nav {
 .report__btn4:hover {
   background: linear-gradient(276deg, #210c51 8.77%, #9166f0 85.8%);
   color: #fff;
+}
+
+.number__title {
+  text-align: center;
 }/*# sourceMappingURL=main.css.map */

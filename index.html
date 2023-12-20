@@ -495,32 +495,33 @@
       </div>
     </section>
     <section class="discussion">
-      <div class="container">
+      <div class="container discussion__container">
         <h1 class="discussion__title">Обсудить проект</h1>
-        <div class="discussion__form">
-          <form class="create__form">
-            <textarea
-              class="discussion__textarea"
-              type="text"
-              placeholder="Краткое описание задачи"
-            ></textarea>
-            <div>
-              <input id="name" type="text" placeholder="Ваше имя" />
-            </div>
-            <div>
-              <input id="email" type="email" placeholder="Электронная почта" />
-            </div>
-            <div>
-              <input id="phone" type="phone" placeholder="Телефон" />
-            </div>
-            <div>
-              <input
-                id="website"
-                type="website"
-                placeholder="Адрес сайта (?)"
-              />
-            </div>
-          </form>
+        <div class="discussion__block">
+          <div class="discussion__form">
+            <form class="create__form">
+              <textarea
+                class="discussion__textarea"
+                type="text"
+                placeholder="Краткое описание задачи"
+              ></textarea>
+              <div>
+                <input id="name" type="text" placeholder="Ваше имя" />
+
+                <input
+                  id="email"
+                  type="email"
+                  placeholder="Электронная почта"
+                />
+                <input id="phone" type="phone" placeholder="Телефон" />
+                <input
+                  id="website"
+                  type="website"
+                  placeholder="Адрес сайта (?)"
+                />
+              </div>
+            </form>
+          </div>
           <div class="discussion__contacts">
             <div class="discussion__contacts-foto">
               <img src="/img/foto.png" alt="face" />
@@ -535,9 +536,8 @@
               <span class="lesson__button-text">Обсудить проект</span>
             </button>
             <p class="conacts__text">
-              Нажимая на кнопку, вы соглашаетесь с<span
-                >Политикой конфиденциальности</span
-              >
+              Нажимая на кнопку, вы соглашаетесь
+              <span>с Политикой конфиденциальности</span>
             </p>
           </div>
         </div>

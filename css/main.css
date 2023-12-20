@@ -721,7 +721,45 @@ nav {
   background: linear-gradient(276deg, #9166f0 8.77%, #210c51 85.8%);
 }
 
-.discussion__form {
+.discussion__container {
+  max-width: 1070px;
+  margin-bottom: 80px;
+}
+
+.discussion__title {
+  padding: 146px 0 63px;
+  text-align: center;
+}
+
+.discussion__block {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+}
+
+.discussion__form {
+  min-width: 660px;
+}
+
+.discussion__textarea {
+  width: 660px;
+  height: 190px;
+  flex-shrink: 0;
+  padding: 20px 0 0 20px;
+  margin-bottom: 20px;
+}
+
+.discussion__contacts {
+  max-width: 330px;
+}
+
+form div {
+  display: grid;
+  grid-template-columns: repeat(2, 320px);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 20px;
+}
+form div input {
+  height: 70px;
+  padding-left: 20px;
 }/*# sourceMappingURL=main.css.map */

@@ -819,4 +819,11 @@ form div input {
   font-style: normal;
   font-weight: 400;
   line-height: 130%;
+}
+
+.footer {
+  color: #fff;
+  max-width: 1600px;
+  min-height: 240px;
+  background: #010423;
 }/*# sourceMappingURL=main.css.map */

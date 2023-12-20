@@ -135,6 +135,12 @@ section {
   max-width: 1600px;
 }
 
+input,
+textarea {
+  border-radius: 10px;
+  border: 1px solid #9166f0;
+}
+
 .header {
   color: #fff;
   max-width: 1600px;
@@ -713,4 +719,9 @@ nav {
 }
 .lesson__button:hover {
   background: linear-gradient(276deg, #9166f0 8.77%, #210c51 85.8%);
+}
+
+.discussion__form {
+  display: flex;
+  flex-direction: row;
 }/*# sourceMappingURL=main.css.map */

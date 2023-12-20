@@ -26,3 +26,8 @@ h1 {
 section {
   max-width: 1600px;
 }
+input,
+textarea {
+  border-radius: 10px;
+  border: 1px solid #9166f0;
+}

@@ -26,6 +26,10 @@
   color: $color-text-white;
   border-radius: 5px;
   background: linear-gradient(276deg, #9166f0 8.77%, #633bbc 85.8%);
+  transition: color 0.2s ease-in;
+  &:hover {
+    background: linear-gradient(276deg, #633bbc 8.77%, #9166f0 85.8%);
+  }
 }
 .lessons__text {
   padding: 13px 0 23px;
@@ -50,4 +54,7 @@
   color: $color-text-white;
   border-radius: 5px;
   background: linear-gradient(276deg, #210c51 8.77%, #9166f0 85.8%);
+  &:hover {
+    background: linear-gradient(276deg, #9166f0 8.77%, #210c51 85.8%);
+  }
 }

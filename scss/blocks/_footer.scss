@@ -4,3 +4,47 @@
   min-height: 240px;
   background: #010423;
 }
+.footer__contacts {
+  padding: 50px 0 51px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.footer__hr {
+  max-width: 1600px;
+  height: 2px;
+  background: $color-text-white;
+  stroke: #fff;
+  opacity: 0.3;
+}
+.footer__copyright {
+  padding-top: 34px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.copyright__text {
+  color: $color-text-white;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 130%;
+}
+.copyright__text1 {
+  color: $color-btn;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 130%;
+}
+.footer__copyright {
+  p {
+    span {
+      color: $color-btn;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 130%;
+    }
+  }
+}

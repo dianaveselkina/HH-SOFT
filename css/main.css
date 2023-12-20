@@ -826,4 +826,49 @@ form div input {
   max-width: 1600px;
   min-height: 240px;
   background: #010423;
+}
+
+.footer__contacts {
+  padding: 50px 0 51px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer__hr {
+  max-width: 1600px;
+  height: 2px;
+  background: #fff;
+  stroke: #fff;
+  opacity: 0.3;
+}
+
+.footer__copyright {
+  padding-top: 34px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.copyright__text {
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 130%;
+}
+
+.copyright__text1 {
+  color: #9166f0;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 130%;
+}
+
+.footer__copyright p span {
+  color: #9166f0;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 130%;
 }/*# sourceMappingURL=main.css.map */

@@ -875,11 +875,11 @@ form div input {
 }
 
 #upbutton {
-  background: url("/images/up.png") no-repeat top left;
+  background: url("/img/up_icon.png") no-repeat top left;
   height: 60px;
   width: 60px;
   bottom: 30px;
-  right: 30px;
+  right: 10%;
   cursor: pointer;
   display: none;
   position: fixed;
